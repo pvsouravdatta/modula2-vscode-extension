@@ -4,6 +4,15 @@
   },
   "brackets": [
     ["begin", "end"],
+    ["module", "end"],
+    ["procedure", "end"],
+    ["record", "end"],
+    ["case", "end"],
+    ["if", "end"],
+    ["loop", "end"],
+    ["for", "end"],
+    ["while", "end"],
+    ["repeat", "end"],
     ["(", ")"],
     ["[", "]"],
     ["{", "}"]
