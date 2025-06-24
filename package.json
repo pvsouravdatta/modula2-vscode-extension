@@ -1,0 +1,49 @@
+{
+  "name": "modula2",
+  "displayName": "Modula-2",
+  "description": "Syntax highlighting and auto-uppercase for Modula-2",
+  "version": "0.0.1",
+  "publisher": "Sourav Datta (soura.jagat@gmail.com)",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:modula2"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "modula2",
+        "aliases": [
+          "Modula-2",
+          "modula2"
+        ],
+        "extensions": [
+          ".mod",
+          ".def"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "modula2",
+        "scopeName": "source.modula2",
+        "path": "./syntaxes/modula2.tmLanguage.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0",
+    "typescript": "^4.8.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "scopeName": "source.modula2",
+    "patterns": [
+        {
+            "name": "keyword.control.modula2",
+            "match": "\\b(AND|ARRAY|BEGIN|BY|CASE|CONST|DEFINITION|DIV|DO|ELSE|ELSIF|END|EXIT|EXPORT|EXCEPT|FINALLY|FOR|FROM|GENERIC|IF|IMPLEMENTATION|IMPORT|IN|INHERIT|LOOP|MOD|MODULE|NOT|OF|OR|POINTER|PROCEDURE|QUALIFIED|REPEAT|RECORD|RETURN|SET|THEN|TO|TYPE|UNTIL|VAR|WHILE|WITH|AS|ABSTRACT|TRACED|OVERRIDE|UNSAFEGUARDED|CLASS|READONLY|GUARD|REVEAL)\\b"
+        },
+        {
+            "name": "constant.language.modula2",
+            "match": "\\b(TRUE|FALSE|NIL)\\b"
+        },
+        {
+            "name": "storage.type.modula2",
+            "match": "\\b(INTEGER|CARDINAL|LONGINT|LONGCARD|REAL|LONGREAL|BOOLEAN|CHAR|SET|BITSET|BYTE|WORD|ADDRESS|PROC)\\b"
+        },
+        {
+            "name": "comment.block.modula2",
+            "begin": "\\(\\*",
+            "end": "\\*\\)"
+        }
+    ],
+    "repository": {},
+    "name": "Modula-2",
+    "fileTypes": [
+        "mod",
+        "def"
+    ],
+    "uuid": "modula2-lang"
+}
