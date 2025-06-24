@@ -1,14 +1,20 @@
 MODULE Test;
 
-FROM StringInOut IMPORT WriteString, WriteLn;
+FROM InOut IMPORT WriteString, WriteLn, WriteInt;
+
+PROCEDURE Show(i: INTEGER);
+BEGIN 
+    WriteString("Iteration: ");
+    WriteInt(i, 3);
+    WriteLn();
+END Show;
 
 VAR
-
+    i: INTEGER;
 BEGIN
     FOR i := 1 TO 10 DO
-        WriteString("Iteration: ");
-        WriteString(i);
-        WriteLn();
+        Show(i);
     END;
-END.
+END Test.
+
 
