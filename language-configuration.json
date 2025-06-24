@@ -4,7 +4,6 @@
   },
   "brackets": [
     ["begin", "end"],
-    ["module", "end"],
     ["procedure", "end"],
     ["record", "end"],
     ["case", "end"],
