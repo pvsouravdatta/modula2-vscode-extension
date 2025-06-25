@@ -2,7 +2,7 @@
   "name": "modula2",
   "displayName": "Modula-2",
   "description": "Syntax highlighting and auto-uppercase for Modula-2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Sourav Datta (soura.jagat@gmail.com)",
   "engines": {
     "vscode": "^1.70.0"
@@ -34,6 +34,12 @@
         "language": "modula2",
         "scopeName": "source.modula2",
         "path": "./syntaxes/modula2.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "modula2",
+        "path": "./snippets/modula2.code-snippets"
       }
     ]
   },
